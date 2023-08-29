@@ -9,6 +9,6 @@ public class MyController {
 
 	@RequestMapping(value = "/SayHello" , method = RequestMethod.GET)
 	public String SayHello() {
-		return "Hello Jenkins";
+		return "Hello Jenkins 1";
 	}
 }
